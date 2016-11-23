@@ -30,6 +30,7 @@ if (isset($_GET["id"])) {
             $foodEvent = array();
             $foodEvent["id"] = $result["pid"];
             $foodEvent["Title"] = $result["Title"];
+            $foodEvent["ClubName"] = $result["ClubName"];
             $foodEvent["StartDate"] = $result["StartDate"];
             $foodEvent["EndDate"] = $result["EndDate"];
             $foodEvent["StartTime"] = $result["StartTime"];
